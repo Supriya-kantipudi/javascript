@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div id="number">0</div>
-        
+    
+    <div id="container" >
+        <div class="row justify-content-center" >
+        <div class="col-4">
+        <b><h1 class="text-center" style="color:pink">COUNTER</h1></b>
     </div>
+    </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+            <div id="number" class="text-center"><b>0</b></div>
+            </div>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-2">
+        <button id="increament" class="btn btn-success btn-block">+</button>
+        </div>
+        
+        <div class="col-2">
+        <button id="decreament" class="btn btn-primary btn-block">-</button>
+        </div>
+    </div>
+
+    
+</div>
+<script src="main.js"></script>
 </body>
 </html>
